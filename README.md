@@ -14,6 +14,7 @@
 ![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
 
 </div>
+
 *(Read the Portuguese version below / Leia a versão em português abaixo)*
 
 **Tenentis OS** is an enterprise-grade, high-performance multi-tenant backend architecture. It is designed to provide absolute data isolation, extreme schema flexibility, and robust access control. Built as a foundational layer, it allows SaaS products to scale seamlessly without compromising on security or performance.

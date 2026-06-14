@@ -59,12 +59,7 @@ The system operates on a Zero-Trust architecture, ensuring that data leakage bet
 # Tenentis OS
 > O Motor Extensível para SaaS
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Build](https://img.shields.io/badge/build-passing-brightgreen.svg)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=flat&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white)
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+
 
 O **Tenentis OS** é uma arquitetura de backend multi-tenant de alta performance e nível corporativo. Ele foi projetado para fornecer isolamento absoluto de dados, extrema flexibilidade de schema e controle de acesso robusto. Construído como uma camada fundamental, permite que produtos SaaS escalem de forma contínua sem comprometer a segurança ou a performance.
 

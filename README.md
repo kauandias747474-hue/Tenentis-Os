@@ -1,13 +1,19 @@
 # Tenentis OS
 > The Extensible SaaS Engine 
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Build](https://img.shields.io/badge/build-passing-brightgreen.svg)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=flat&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white)
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+<div align="center">
+  
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
 
+![Architecture](https://img.shields.io/badge/Architecture-Multi--Tenant-8A2BE2?style=for-the-badge)
+![Security](https://img.shields.io/badge/Security-Zero--Trust-E34F26?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
+
+</div>
 *(Read the Portuguese version below / Leia a versão em português abaixo)*
 
 **Tenentis OS** is an enterprise-grade, high-performance multi-tenant backend architecture. It is designed to provide absolute data isolation, extreme schema flexibility, and robust access control. Built as a foundational layer, it allows SaaS products to scale seamlessly without compromising on security or performance.

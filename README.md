@@ -91,6 +91,34 @@ O sistema opera em uma arquitetura Zero-Trust (Confiança Zero), garantindo que 
 *   **Flexibilidade por Meta-Programação:** O backend é agnóstico ao modelo de negócios específico. Ele se adapta às necessidades do cliente, resolvendo o problema clássico de "campos customizados" em SaaS sem exigir migrações complexas no banco de dados.
 *   **Performance em Escala:** O uso estratégico de Índices Parciais e Réplicas de Leitura (padrão CQRS) garante que consultas pesadas de relatórios não impactem a performance transacional da aplicação principal.
 
+---
+
+Aqui estão os blocos de texto formatados exclusivamente para você copiar e colar no seu `README.md`, seguindo exatamente as instruções de posicionamento:
+
+### 🇬🇧 English Version
+
+
+### High-Performance Background Processing
+
+To keep the core API blazing fast and strictly focused on routing and schema validation, Tenentis OS supports an Event-Driven architecture for heavy computing.
+
+* **Modern Java Microservices:** CPU-intensive tasks, heavy log auditing, and complex background reports are delegated to satellite microservices built with **Java 21+** and **Spring Boot 3.x**.
+* **Virtual Threads (Project Loom):** By leveraging lightweight virtual threads, the background workers can handle millions of concurrent I/O operations with a negligible memory footprint, completely replacing the old thread-per-request bottleneck.
+* **Asynchronous Message Queues:** The main API publishes events to a message broker (**RabbitMQ** / **Kafka**). The Java workers consume these messages, authenticate with the database, inject the required context for the RLS policies, and process the payload asynchronously without degrading the transactional performance of the main application.
+
+---
+
+### 🇧🇷 Versão em Português
+
+
+### Processamento em Background de Alta Performance
+
+Para manter a API principal extremamente rápida e focada estritamente no roteamento e validação de schema, o Tenentis OS suporta uma arquitetura Orientada a Eventos para computação pesada.
+
+* **Microsserviços em Java Moderno:** Tarefas que exigem muito processamento de CPU, auditoria pesada de logs e geração de relatórios complexos em segundo plano são delegadas a microsserviços satélites construídos com **Java 21+** e **Spring Boot 3.x**.
+* **Virtual Threads (Project Loom):** Utilizando threads virtuais superleves, os *workers* em background conseguem lidar com milhões de operações de I/O concorrentes com um consumo mínimo de memória, eliminando completamente o antigo gargalo de uma thread por requisição.
+* **Filas de Mensagens Assíncronas:** A API principal publica eventos em um *message broker* (**RabbitMQ** / **Kafka**). Os microsserviços em Java consomem essas mensagens, autenticam-se no banco de dados, injetam o contexto necessário para as políticas de RLS e processam o *payload* de forma assíncrona, sem degradar a performance transacional da aplicação principal.
+
 ## Como Começar
 
 1.  Clone o repositório usando: `git clone https://github.com/seu-usuario/tenentis-os.git`

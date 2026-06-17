@@ -92,9 +92,6 @@ O sistema opera em uma arquitetura Zero-Trust (Confiança Zero), garantindo que 
 *   **Performance em Escala:** O uso estratégico de Índices Parciais e Réplicas de Leitura (padrão CQRS) garante que consultas pesadas de relatórios não impactem a performance transacional da aplicação principal.
 
 ---
-
-Aqui estão os blocos de texto formatados exclusivamente para você copiar e colar no seu `README.md`, seguindo exatamente as instruções de posicionamento:
-
 ### 🇬🇧 English Version
 
 
